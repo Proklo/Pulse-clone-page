@@ -1,0 +1,106 @@
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+#navbar-container {
+    width: 1855px;
+    height: 120px;}
+
+.navtext {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 60px;
+    color: #00ad6a;
+    text-decoration: none;
+    line-height: 0.8;
+}
+
+#textos{
+    margin-left: 950px;
+    font-family: Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    -ms-font-smoothing: antialiased;
+    -ms-osx-font-smoothing: grayscale;
+
+}
+
+#iniciar-sesion{
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: #00ad6a;
+    box-shadow: none;
+    border: 2px solid #00ad6a;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: -20px;
+    width: 100px;
+    height: 35px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navtext:hover{
+    color: #080c16;
+}
+
+#titulo{
+    font-family:sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    margin-top: 17px;
+    margin-left: 662px;
+    max-width: 500px;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: -2px;
+}
+
+#parrafo{ 
+    font-family: Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 630px;
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 560px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#contenedor-central{
+    margin-top: 80px;
+}
+
+#caja-medio{
+    background-color: #fcfcfc;
+    border: 1px solid #00ad6a ;
+    width: 390px;
+    height: 650px;
+    margin-left: 730px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#franja-recomendada{
+    font-family: Work Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    width: 389px;
+    background-color: #00ad6a;
+    height: 27px;
+    color: #fcfcfc;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#small-business-plan{
+    max-width: 50px;
+    font-size: 50px;
+    margin-left: 50%;
+    transform: translate(-180%, 0%);
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    letter-spacing: -1px;
+    color: #00ad6a;
+}
